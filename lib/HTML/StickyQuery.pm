@@ -1,7 +1,7 @@
 package HTML::StickyQuery;
 # $Id: StickyQuery.pm,v 1.10 2003/10/08 09:46:55 ikebe Exp $
 use strict;
-use base qw(HTML::Parser);
+use parent qw(HTML::Parser);
 use URI;
 use vars qw($VERSION);
 

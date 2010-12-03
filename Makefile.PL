@@ -6,6 +6,8 @@ all_from 'lib/HTML/StickyQuery.pm';
 
 tests 't/*.t';
 author_tests 'xt';
+
+requires 'parent';
 requires 'HTML::Parser' => '3.00';
 requires 'URI';
 
