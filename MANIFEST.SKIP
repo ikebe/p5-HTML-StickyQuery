@@ -17,5 +17,5 @@
 ^[^/]+\.yaml$
 ^[^/]+\.pl$
 ^\.shipit$
-^\.git/
+^\.git
 \.sw[po]$
