@@ -1,3 +1,8 @@
+0.13 2010-12-03  IKEBE Tomohiro  <ikebe@livedoor.jp>
+
+        * use parent.
+	* modern layout.
+
 2003-10-08  IKEBE Tomohiro  <ikebe@edge.co.jp>
 
 	* added valid XML(XHTML) support.
