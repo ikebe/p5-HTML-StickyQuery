@@ -1,12 +1,15 @@
-use ExtUtils::MakeMaker;
-# See lib/ExtUtils/MakeMaker.pm for details of how to influence
-# the contents of the Makefile that is written.
-WriteMakefile(
-	      'NAME'	=> 'HTML::StickyQuery',
-	      'VERSION_FROM' => 'StickyQuery.pm', # finds $VERSION
-	      'PREREQ_PM' => {
-			      URI => '1.00',
-			      HTML::Parser => 3,
-			      Test::More => 0.32,
-			     }
-);
+use inc::Module::Install;
+name 'HTML-StickyQuery';
+all_from 'lib/HTML/StickyQuery.pm';
+
+# requires '';
+
+tests 't/*.t';
+author_tests 'xt';
+requires 'HTML::Parser' => '3.00';
+requires 'URI';
+
+test_requires 'Test::More';
+auto_set_repository;
+auto_include;
+WriteAll;
