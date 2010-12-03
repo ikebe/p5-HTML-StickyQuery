@@ -384,7 +384,7 @@ search.cgi:
 
 =head1 AUTHOR
 
-IKEBE Tomohiro E<lt>ikebe@edge.co.jpE<gt>
+IKEBE Tomohiro E<lt>ikebe@livedoor.jpE<gt>
 
 =head1 SEE ALSO
 
